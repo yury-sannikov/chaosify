@@ -8,6 +8,15 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+pytest-mock = "*"
+flake8 = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.2"
+coverage = "^7.5.0"
 
 [build-system]
 requires = ["poetry-core"]
