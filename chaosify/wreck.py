@@ -11,5 +11,5 @@ def maybe_wreck[
     if exception is None:
         return result
 
-    # otherwise, raise exception
+    # raise exception
     raise exception

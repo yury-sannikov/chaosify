@@ -35,7 +35,7 @@ def test_chaos_raise_exception(chaos_instance, error_threshold, shoud_throw):
         return 1
 
     if shoud_throw:
-        with pytest.raises(Exception) as exc:
+        with pytest.raises(Exception):
             _func_under_test()
     else:
         assert _func_under_test() == 1
