@@ -15,8 +15,8 @@
 
 
 <p align="center">
-<a href="https://github.com/yury-sannikov/chaosify/actions?query=workflow%3ATest+event%3Apush+branch%3Amaster" target="_blank">
-    <img src="https://github.com/yury-sannikov/chaosify/workflows/Test/badge.svg?event=push&branch=master" alt="Test">
+<a href="https://github.com/yury-sannikov/chaosify/actions/workflows/run_coverage.yml" target="_blank">
+    <img src="https://github.com/yury-sannikov/chaosify/actions/workflows/run_coverage.yml/badge.svg" alt="Test">
 </a>
 <a href="https://pypi.org/project/chaosify" target="_blank">
     <img src="https://img.shields.io/pypi/v/chaosify?color=%2334D058&label=pypi%20package" alt="Package version">
