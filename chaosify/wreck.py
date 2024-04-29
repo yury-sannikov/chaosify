@@ -1,9 +1,7 @@
 import random
 
 
-def maybe_wreck[
-    T
-](function_result: T, error_threshold: float, result: T = None, exception=None) -> T:
+def maybe_wreck(function_result, error_threshold: float, result=None, exception=None):
     if random.random() >= error_threshold:
         return function_result
 
