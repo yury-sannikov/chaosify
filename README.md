@@ -34,5 +34,13 @@
 
 ---
 
-# chaosify
-Chaos Testing library for pyhon
+Chaosify, is a powerful chaos testing library for Python applications. Designed to inject controlled chaos into your code.
+
+Chaosify empowers developers to uncover weaknesses and improve the resilience of their software. Whether you're building microservices, distributed systems, or monolithic applications
+
+Key features are:
+* introduce latency injection
+* emulate resource exhaustion
+* mimic service disruptions
+
+Chaosify is highly configurable, allowing you to fine-tune chaos parameters and observe how your system behaves under stress.
